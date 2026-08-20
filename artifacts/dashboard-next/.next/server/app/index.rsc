@@ -1,0 +1,16 @@
+1:"$Sreact.fragment"
+2:I[8769,[],""]
+3:I[8725,[],""]
+4:I[9164,["575","static/chunks/575-f5cb22631679ecb6.js","974","static/chunks/app/page-f962dd34051576ec.js"],"default"]
+5:I[8100,[],"OutletBoundary"]
+7:I[9149,[],"AsyncMetadataOutlet"]
+9:I[8100,[],"ViewportBoundary"]
+b:I[8100,[],"MetadataBoundary"]
+c:"$Sreact.suspense"
+e:I[8803,[],""]
+:HL["/_next/static/css/ff2bda604644a787.css","style"]
+0:{"P":null,"b":"E2d9ieqQJRP2J3uk3DPct","p":"","c":["",""],"i":false,"f":[[["",{"children":["__PAGE__",{}]},"$undefined","$undefined",true],["",["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/css/ff2bda604644a787.css","precedence":"next","crossOrigin":"$undefined","nonce":"$undefined"}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$L2",null,{"parallelRouterKey":"children","error":"$undefined","errorStyles":"$undefined","errorScripts":"$undefined","template":["$","$L3",null,{}],"templateStyles":"$undefined","templateScripts":"$undefined","notFound":[["$","main",null,{"className":"min-h-[100dvh] bg-[#050505] px-6 py-16 text-slate-300","children":["$","div",null,{"className":"mx-auto max-w-xl rounded-2xl border border-slate-800 bg-[#0a0a0a] p-8","children":[["$","p",null,{"className":"font-mono text-[10px] uppercase tracking-[0.2em] text-rose-400","children":"ROUTE NOT FOUND"}],["$","h1",null,{"className":"mt-3 text-2xl font-bold text-white","children":"The requested console path is unavailable."}],["$","p",null,{"className":"mt-2 text-sm text-slate-500","children":"Return to the operations dashboard to resume live node monitoring."}],["$","a",null,{"href":"/","className":"mt-6 inline-flex rounded-lg border border-indigo-400/50 bg-indigo-600 px-3 py-2 font-mono text-xs text-white transition hover:bg-indigo-500","children":"RETURN TO DASHBOARD"}]]}]}],[]],"forbidden":"$undefined","unauthorized":"$undefined"}]}]}]]}],{"children":["__PAGE__",["$","$1","c",{"children":[["$","$L4",null,{}],null,["$","$L5",null,{"children":["$L6",["$","$L7",null,{"promise":"$@8"}]]}]]}],{},null,false]},null,false],["$","$1","h",{"children":[null,[["$","$L9",null,{"children":"$La"}],null],["$","$Lb",null,{"children":["$","div",null,{"hidden":true,"children":["$","$c",null,{"fallback":null,"children":"$Ld"}]}]}]]}],false]],"m":"$undefined","G":["$e",[]],"s":false,"S":true}
+a:[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]
+6:null
+8:{"metadata":[["$","title","0",{"children":"MeeChain Dashboard"}],["$","meta","1",{"name":"description","content":"Live MeeChain node telemetry, Magic Orb resonance, bridge operations, verification, and production code."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"property":"og:title","content":"MeeChain Dashboard"}],["$","meta","4",{"property":"og:description","content":"Live blockchain operations and production verification console."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"MeeChain Dashboard"}],["$","meta","8",{"name":"twitter:description","content":"Live blockchain operations and production verification console."}]],"error":null,"digest":"$undefined"}
+d:"$8:metadata"
