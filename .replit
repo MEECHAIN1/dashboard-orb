@@ -18,3 +18,14 @@ expertMode = true
 [postMerge]
 path = "scripts/post-merge.sh"
 timeoutMs = 20000
+
+[nix]
+channel = "stable-25_05"
+
+[userenv]
+
+[userenv.shared]
+NEXT_PUBLIC_RPC_URL = "https://rpc.meechain.live"
+NEXT_PUBLIC_API_URL = "https://api.meechain.live"
+NEXT_CHAINID = "13390"
+NEXT_CHAIN_NAME = "MeeChain Network"

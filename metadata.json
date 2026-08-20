@@ -1,0 +1,6 @@
+{
+  "name": "MeeChain Dashboard - Phase 2 Production Verified",
+  "description": "Production verified dashboard and Magic Hall control plane for MeeChain blockchain, real-time Node/API/RPC monitoring, Magic Orb resonance, and CI/CD verification suite.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
