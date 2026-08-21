@@ -29,3 +29,8 @@ NEXT_PUBLIC_RPC_URL = "https://rpc.meechain.live"
 NEXT_PUBLIC_API_URL = "https://api.meechain.live"
 NEXT_CHAINID = "13390"
 NEXT_CHAIN_NAME = "MeeChain Network"
+
+[[ports]]
+localPort = 5173
+externalPort = 80
+exposeLocalhost = true

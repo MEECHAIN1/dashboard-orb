@@ -1,0 +1,38 @@
+{
+  "plugin": "org.smartide.plugin.framework.javascript.nextjs",
+  "run": "echo 'change command from .si.json file'",
+  "intelligence": {
+    ".md": {
+      "enabled": true,
+      "run": "marksman server"
+    },
+    ".json": {
+      "enabled": true,
+      "run": "vscode-json-language-server --stdio"
+    },
+    ".css": {
+      "enabled": true,
+      "run": "vscode-css-language-server --stdio"
+    },
+    ".tsx": {
+      "enabled": true,
+      "run": "typescript-language-server --stdio"
+    },
+    ".ts": {
+      "enabled": true,
+      "run": "typescript-language-server --stdio"
+    },
+    ".mjs": {
+      "enabled": true,
+      "run": "typescript-language-server --stdio"
+    },
+    ".js": {
+      "enabled": true,
+      "run": "typescript-language-server --stdio"
+    },
+    ".yaml": {
+      "enabled": true,
+      "run": "yaml-language-server --stdio"
+    }
+  }
+}
