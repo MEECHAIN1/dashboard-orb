@@ -218,6 +218,10 @@ importers:
         version: 3.1.0
 
   artifacts/dashboard:
+    dependencies:
+      workspace:
+        specifier: 0.0.1-preview.2
+        version: 0.0.1-preview.2
     devDependencies:
       '@hookform/resolvers':
         specifier: ^3.10.0
@@ -308,28 +312,10 @@ importers:
         version: 4.3.3
       '@tailwindcss/typography':
         specifier: ^0.5.15
-        version: 0.5.20(tailwindcss@4.3.3)
-      '@tanstack/react-query':
-        specifier: 'catalog:'
-        version: 5.101.4(react@19.1.0)
-      '@types/node':
-        specifier: 'catalog:'
-        version: 25.9.5
-      '@types/react':
-        specifier: 'catalog:'
-        version: 19.2.17
-      '@types/react-dom':
-        specifier: 'catalog:'
-        version: 19.2.3(@types/react@19.2.17)
+        version: 0.5.20
       '@workspace/api-client-react':
         specifier: workspace:*
         version: link:../../lib/api-client-react
-      class-variance-authority:
-        specifier: 'catalog:'
-        version: 0.7.1
-      clsx:
-        specifier: 'catalog:'
-        version: 2.1.1
       cmdk:
         specifier: ^1.1.1
         version: 1.1.1(@types/react-dom@19.2.3(@types/react@19.2.17))(@types/react@19.2.17)(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
@@ -339,30 +325,18 @@ importers:
       embla-carousel-react:
         specifier: ^8.6.0
         version: 8.6.0(react@19.1.0)
-      framer-motion:
-        specifier: 'catalog:'
-        version: 12.42.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       input-otp:
         specifier: ^1.4.2
         version: 1.4.2(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      lucide-react:
-        specifier: 'catalog:'
-        version: 0.545.0(react@19.1.0)
       next:
         specifier: ^15.5.7
         version: 15.5.23(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
       next-themes:
         specifier: ^0.4.6
         version: 0.4.6(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      react:
-        specifier: 'catalog:'
-        version: 19.1.0
       react-day-picker:
         specifier: ^9.11.1
         version: 9.14.0(react@19.1.0)
-      react-dom:
-        specifier: 'catalog:'
-        version: 19.1.0(react@19.1.0)
       react-hook-form:
         specifier: ^7.55.0
         version: 7.83.0(react@19.1.0)
@@ -378,12 +352,6 @@ importers:
       sonner:
         specifier: ^2.0.7
         version: 2.0.7(react-dom@19.1.0(react@19.1.0))(react@19.1.0)
-      tailwind-merge:
-        specifier: 'catalog:'
-        version: 3.6.0
-      tailwindcss:
-        specifier: 'catalog:'
-        version: 4.3.3
       tw-animate-css:
         specifier: ^1.4.0
         version: 1.4.0
@@ -393,9 +361,6 @@ importers:
       wouter:
         specifier: ^3.3.5
         version: 3.10.0(react@19.1.0)
-      zod:
-        specifier: 'catalog:'
-        version: 3.25.76
 
   artifacts/mockup-sandbox:
     devDependencies:
@@ -3319,6 +3284,9 @@ packages:
     engines: {node: '>= 8'}
     hasBin: true
 
+  workspace@0.0.1-preview.2:
+    resolution: {integrity: sha512-UwDfYOgc0XET22pr/nlU0l02/8bG7xDW55EKKj+gp6fM2+23GdVVsGV0mMtMCAzJ/H9G3POdiJ5Ny2tyGZVefQ==}
+
   wouter@3.10.0:
     resolution: {integrity: sha512-zTfddD80zc2/J5l8JKcdvzOK6AwP0kpyHEI3DxRN2bn8U1oJPnrSVm8v+X3WwDamvLAOxTO7ZvkxkpRWlyeJ1Q==}
     peerDependencies:
@@ -4562,10 +4530,9 @@ snapshots:
       postcss: 8.5.23
       tailwindcss: 4.3.3
 
-  '@tailwindcss/typography@0.5.20(tailwindcss@4.3.3)':
+  '@tailwindcss/typography@0.5.20':
     dependencies:
       postcss-selector-parser: 6.0.10
-      tailwindcss: 4.3.3
 
   '@tailwindcss/vite@4.3.3(vite@7.3.6(@types/node@25.9.5)(jiti@2.7.0)(lightningcss@1.32.0)(tsx@4.23.1)(yaml@2.9.0))':
     dependencies:
@@ -6007,6 +5974,8 @@ snapshots:
   which@2.0.2:
     dependencies:
       isexe: 2.0.0
+
+  workspace@0.0.1-preview.2: {}
 
   wouter@3.10.0(react@19.1.0):
     dependencies:

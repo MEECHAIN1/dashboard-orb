@@ -11,6 +11,90 @@ env = { "CI" = "true" }
 [workflows]
 runButton = "Project"
 
+[[workflows.workflow]]
+name = "artifacts/api-server: API Server"
+author = "agent"
+mode = "sequential"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+artifactId = "3B4_FFSkEVBkAeYMFRJ2e"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pnpm --filter @workspace/api-server run dev"
+cwd = "./artifacts/api-server"
+waitForPort = 5000
+ensurePreviewReachable = "/"
+router = "path"
+
+[workflows.workflow.tasks.env]
+PORT = "5000"
+
+[[workflows.workflow]]
+name = "artifacts/mockup-sandbox: Component Preview Server"
+author = "agent"
+mode = "sequential"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+artifactId = "XegfDyZt7HqfW2Bb8Ghoy"
+isCanvasWorkflow = true
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pnpm --filter @workspace/mockup-sandbox run dev"
+cwd = "./artifacts/mockup-sandbox"
+waitForPort = 8081
+ensurePreviewReachable = "/"
+router = "path"
+
+[workflows.workflow.tasks.env]
+PORT = "8081"
+BASE_PATH = "/__mockup"
+
+[[workflows.workflow]]
+name = "artifacts/dashboard"
+mode = "sequential"
+author = "agent"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pnpm --filter @workspace/dashboard run dev"
+cwd = "./artifacts/dashboard"
+waitForPort = 22030
+ensurePreviewReachable = "/"
+router = "path"
+
+[workflows.workflow.tasks.env]
+PORT = "22030"
+BASE_PATH = "/"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+artifactId = "artifacts/dashboard"
+
+[[workflows.workflow]]
+name = "artifacts/dashboard: web"
+author = "agent"
+mode = "sequential"
+
+[workflows.workflow.metadata]
+outputType = "webview"
+artifactId = "artifacts/dashboard"
+
+[[workflows.workflow.tasks]]
+task = "shell.exec"
+args = "pnpm --filter @workspace/dashboard run dev"
+cwd = "./artifacts/dashboard"
+waitForPort = 22030
+ensurePreviewReachable = "/"
+router = "path"
+
+[workflows.workflow.tasks.env]
+PORT = "22030"
+BASE_PATH = "/"
+
 [agent]
 stack = "PNPM_WORKSPACE"
 expertMode = true
@@ -32,10 +116,14 @@ NEXT_CHAIN_NAME = "MeeChain Network"
 
 [[ports]]
 localPort = 3000
+externalPort = 3000
 
 [[ports]]
 localPort = 3001
-externalPort = 3000
+
+[[ports]]
+localPort = 5000
+externalPort = 8080
 
 [[ports]]
 localPort = 5173
@@ -44,7 +132,6 @@ exposeLocalhost = true
 
 [[ports]]
 localPort = 8080
-externalPort = 8080
 
 [[ports]]
 localPort = 8081
