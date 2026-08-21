@@ -14,15 +14,13 @@ localPort = 22030
 [services.development]
 run = "pnpm --filter @workspace/dashboard run dev"
 
-[services.production]
-build = [ "pnpm", "--filter", "@workspace/dashboard", "run", "build" ]
-serve = "static"
-publicDir = "artifacts/dashboard/dist/public"
+[services.production.build]
+args = [ "pnpm", "--filter", "@workspace/dashboard", "run", "build" ]
 
-[[services.production.rewrites]]
-from = "/*"
-to = "/index.html"
+[services.production.run]
+args = [ "pnpm", "--filter", "@workspace/dashboard", "run", "start" ]
 
-[services.env]
+[services.production.run.env]
+NODE_ENV = "production"
 PORT = "22030"
 BASE_PATH = "/"

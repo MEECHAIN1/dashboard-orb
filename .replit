@@ -31,6 +31,25 @@ NEXT_CHAINID = "13390"
 NEXT_CHAIN_NAME = "MeeChain Network"
 
 [[ports]]
+localPort = 3000
+
+[[ports]]
+localPort = 3001
+externalPort = 3000
+
+[[ports]]
 localPort = 5173
 externalPort = 80
 exposeLocalhost = true
+
+[[ports]]
+localPort = 8080
+externalPort = 8080
+
+[[ports]]
+localPort = 8081
+externalPort = 8081
+
+[[ports]]
+localPort = 22030
+externalPort = 3001

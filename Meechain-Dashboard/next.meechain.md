@@ -463,7 +463,7 @@ npm run dev
 git init
 git add .
 git commit -m "feat: convert vite project to nextjs 14"
-git remote add origin https://github.com/MEECHAIN1/meechain-dashboard.git
+git remote add origin https://github.com/MEECHAIN1/Meechain-Dashboard.git
 git push -u origin main
 
 # Expected: Code pushed to GitHub
