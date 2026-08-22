@@ -24,12 +24,12 @@ artifactId = "3B4_FFSkEVBkAeYMFRJ2e"
 task = "shell.exec"
 args = "pnpm --filter @workspace/api-server run dev"
 cwd = "./artifacts/api-server"
-waitForPort = 5000
+waitForPort = 8080
 ensurePreviewReachable = "/"
 router = "path"
 
 [workflows.workflow.tasks.env]
-PORT = "5000"
+PORT = "8080"
 
 [[workflows.workflow]]
 name = "artifacts/mockup-sandbox: Component Preview Server"
@@ -123,16 +123,13 @@ externalPort = 3000
 localPort = 3001
 
 [[ports]]
-localPort = 5000
-externalPort = 8080
-
-[[ports]]
 localPort = 5173
 externalPort = 80
 exposeLocalhost = true
 
 [[ports]]
 localPort = 8080
+externalPort = 8080
 
 [[ports]]
 localPort = 8081
