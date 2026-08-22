@@ -1,3 +1,0 @@
-module.exports=[94526,a=>{"use strict";var b=a.i(55263);a.s(["default",0,function({children:a}){return(0,b.jsx)("html",{lang:"en",children:(0,b.jsx)("body",{children:a})})},"metadata",0,{title:"MeeChain Dashboard",description:"Live MeeChain node telemetry, Magic Orb resonance, bridge operations, verification, and production code.",robots:{index:!0,follow:!0},openGraph:{title:"MeeChain Dashboard",description:"Live blockchain operations and production verification console.",type:"website"}}])},5382,function(a){a.n(a.i(94526))}];
-
-//# sourceMappingURL=artifacts_dashboard_app_layout_tsx_03o_88n._.js.map
