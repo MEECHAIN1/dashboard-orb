@@ -44,9 +44,4 @@
     ],
     "allowJs": true
   },
-  "plugins": [
-    {
-      "name": "next"
-    }
-  ]
 }

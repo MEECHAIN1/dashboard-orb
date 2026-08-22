@@ -1,0 +1,19 @@
+1:"$Sreact.fragment"
+2:I[61626,["/_next/static/chunks/0_5v7xg-1p63j.js","/_next/static/chunks/0e7ew273u5_cx.js"],"default"]
+3:I[79940,["/_next/static/chunks/0_5v7xg-1p63j.js"],"OutletBoundary"]
+4:"$Sreact.suspense"
+8:I[79940,["/_next/static/chunks/0_5v7xg-1p63j.js"],"ViewportBoundary"]
+9:I[79940,["/_next/static/chunks/0_5v7xg-1p63j.js"],"MetadataBoundary"]
+b:I[43807,["/_next/static/chunks/0_5v7xg-1p63j.js"],"default"]
+c:I[85614,["/_next/static/chunks/0_5v7xg-1p63j.js"],"default"]
+:HL["/_next/static/chunks/3977i50feneo0.css","style"]
+7:X
+0:{"buildId":"rlLaqUqTWKX00BQOsoRC6","data":[{"rsc":["$","$1","c",{"children":[["$","$L2",null,{}],[["$","script","script-0",{"src":"/_next/static/chunks/0e7ew273u5_cx.js","async":true}]],["$","$L3",null,{"children":["$","$4",null,{"name":"Next.MetadataOutlet","children":"$@5"}]}]]}],"isPartial":"$@6","staleTime":"$7","varyParams":null},{"rsc":["$","$1","h",{"children":[null,["$","$L8",null,{"children":[["$","meta","0",{"charSet":"utf-8"}],["$","meta","1",{"name":"viewport","content":"width=device-width, initial-scale=1"}]]}],["$","div",null,{"hidden":true,"children":["$","$L9",null,{"children":["$","$4",null,{"name":"Next.Metadata","children":[["$","title","0",{"children":"MeeChain Dashboard"}],["$","meta","1",{"name":"description","content":"Live MeeChain node telemetry, Magic Orb resonance, bridge operations, verification, and production code."}],["$","meta","2",{"name":"robots","content":"index, follow"}],["$","meta","3",{"property":"og:title","content":"MeeChain Dashboard"}],["$","meta","4",{"property":"og:description","content":"Live blockchain operations and production verification console."}],["$","meta","5",{"property":"og:type","content":"website"}],["$","meta","6",{"name":"twitter:card","content":"summary"}],["$","meta","7",{"name":"twitter:title","content":"MeeChain Dashboard"}],["$","meta","8",{"name":"twitter:description","content":"Live blockchain operations and production verification console."}]]}]}]}],null]}],"isPartial":"$@a","staleTime":"$7","varyParams":null},{"rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/_next/static/chunks/3977i50feneo0.css","precedence":"next"}],["$","script","script-0",{"src":"/_next/static/chunks/0_5v7xg-1p63j.js","async":true}]],["$","html",null,{"lang":"en","children":["$","body",null,{"children":["$","$Lb",null,{"parallelRouterKey":"children","template":["$","$Lc",null,{}],"notFound":[["$","main",null,{"className":"min-h-[100dvh] bg-[#050505] px-6 py-16 text-slate-300","children":["$","div",null,{"className":"mx-auto max-w-xl rounded-2xl border border-slate-800 bg-[#0a0a0a] p-8","children":[["$","p",null,{"className":"font-mono text-[10px] uppercase tracking-[0.2em] text-rose-400","children":"ROUTE NOT FOUND"}],["$","h1",null,{"className":"mt-3 text-2xl font-bold text-white","children":"The requested console path is unavailable."}],["$","p",null,{"className":"mt-2 text-sm text-slate-500","children":"Return to the operations dashboard to resume live node monitoring."}],["$","a",null,{"href":"/","className":"mt-6 inline-flex rounded-lg border border-indigo-400/50 bg-indigo-600 px-3 py-2 font-mono text-xs text-white transition hover:bg-indigo-500","children":"RETURN TO DASHBOARD"}]]}]}],[]]}]}]}]]}],"isPartial":"$@d","staleTime":"$7","varyParams":null}],"isUpgradeableISRFallback":false,"a":"$@e","rootVaryParams":null,"needsRuntimeRequest":"$@f"}
+5:null
+7:300
+f:true
+7:C
+e:0
+a:"$undefined"
+d:"$undefined"
+6:"$undefined"

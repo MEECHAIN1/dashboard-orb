@@ -1,32 +1,11 @@
-"use client";
-
 /**
  * @license
  * SPDX-License-Identifier: Apache-2.0
  */
-
 'use client';
-
 import React, { useState, useEffect, useCallback } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import {
-  Sparkles,
-  Activity,
-  Layers,
-  ShieldCheck,
-  Terminal,
-  Server,
-  Globe,
-  Cpu,
-  Radio,
-  ExternalLink,
-  Github,
-  CheckCircle2,
-  AlertTriangle,
-  Lock,
-  Eye,
-  Zap
-} from 'lucide-react';
+import { Lock } from 'lucide-react';
 import { Navbar } from './components/Navbar';
 import { MagicOrbView } from './components/MagicOrbView';
 import { StatsMonitorView } from './components/StatsMonitorView';

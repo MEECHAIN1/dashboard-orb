@@ -126,7 +126,7 @@ export function StatsMonitorView({
               <div className="flex justify-between items-center">
                 <span className="text-slate-400">Chain ID</span>
                 <span className="font-mono text-white">
-                  {stats?.node.chainId || 33101} ({stats?.node.chainName || 'MeeChain'})
+                  {stats?.node.chainId || 13390} ({stats?.node.chainName || 'MeeChain Network'})
                 </span>
               </div>
               <div className="flex justify-between items-center">

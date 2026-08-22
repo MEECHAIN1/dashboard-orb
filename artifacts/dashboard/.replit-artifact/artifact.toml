@@ -16,7 +16,7 @@ run = "pnpm --filter @workspace/dashboard run dev"
 
 [services.production]
 build = [ "pnpm", "--filter", "@workspace/dashboard", "run", "build" ]
-serve = "static"
+serve = "artifacts/dashboard/dist"
 publicDir = "artifacts/dashboard/dist/public"
 
 [[services.production.rewrites]]
